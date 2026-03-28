@@ -18,4 +18,20 @@ def age_check():
         Para las entradas "-5" y "18", la salida esperada es:
         Entrada invalida
     """
-    pass
+    #edad=int(input("Ingrese su edad"))
+    #limite_edad=int(input("Ingrese la edad limite"))
+
+    edad=int(input())
+    limite_edad=int(input())
+
+    if edad >= limite_edad and edad >= 0 and limite_edad >= 0:
+            print("Eres mayor de edad")
+
+    elif edad << limite_edad and edad >= 0 and limite_edad >= 0:
+            print("Eres menor de edad")
+
+    else:
+        print("Entrada invalida")
+
+#age_check()
+
